@@ -55,7 +55,7 @@ button:focus {
   width: 7px;
 }
 
-/* Track */
+
 ::-webkit-scrollbar-track {
   background: #2d1950;
 }
