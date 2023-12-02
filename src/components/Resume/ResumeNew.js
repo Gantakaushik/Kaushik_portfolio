@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/JayeshSabale_Resume.pdf";
-// import pdf from "../../Assets/../Assets/JayeshSabale_Resume2.pdf";
+import pdf from "../../Assets/../Assets/2110520011_GantaKaushik.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -33,25 +32,15 @@ function ResumeNew() {
             &nbsp;Download CV
           </Button>
         </Row>
-        {/* scale={width > 786 ? 1.7 : 0.6} */}
+       
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 128 ? 1.0 : 0.6} />
             <br />
-            <Page pageNumber={2} scale={width > 128 ? 1.0 : 0.6} />
+          
           </Document>
         </Row>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>
+       
       </Container>
     </div>
   );

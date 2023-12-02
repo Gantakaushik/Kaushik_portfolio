@@ -13,7 +13,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Jayesh Sabale</h3>
+          <h3>Designed and Developed by Ganta Kaushik</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} </h3>
@@ -22,7 +22,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/JayeshSabale"
+                href="https://github.com/Gantakaushik"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -33,7 +33,7 @@ function Footer() {
             
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/jayesh-sabale-986057250"
+                href="https://www.linkedin.com/in/g-kaushik-6a4453227"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -43,7 +43,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/jayeshsabale_23/"
+                href="https://www.instagram.com/kaushik_g8125/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
