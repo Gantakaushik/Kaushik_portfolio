@@ -6,7 +6,7 @@ import logo from "../Assets/logo1.png";
 import { Link } from "react-router-dom";
 
 import {
-  AiOutlineHome,
+  AiOutlineHome,   
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
