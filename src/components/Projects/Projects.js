@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Sketchpen from "../../Assets/Projects/Sketch Pen.png";
 import Snapnote from "../../Assets/Projects/Snap Note.png";
+import admin from "../../Assets/Projects/Admin.png";
 
 function Projects() {
   return (
@@ -38,6 +39,17 @@ function Projects() {
               
               ghLink="https://github.com/Gantakaushik/Snap-Note"
               demoLink="https://gantakaushik.github.io/Snap-Note/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={admin}
+              isBlog={false}
+              title="Admin Panel"
+              description=
+              "Dynamic React-based admin panel project utilizing a modern stack of libraries for efficient and responsive static content management."
+              ghLink="https://github.com/Gantakaushik/Admin_panel"
+              demoLink="https://gantakaushik.github.io/Admin_panel/"
             />
           </Col>
 
